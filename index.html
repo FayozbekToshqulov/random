@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            font-size: 50px;
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #pp{
+            font-size: 80px;
+            font-family: sans-serif;
+            color: grey;
+        }
+        .random{
+            padding: 60px;
+            height: 250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        label{
+            color: black;
+            font-size: 30px;
+        }
+        input{
+            height: 20px;
+            padding: 5px;
+            width: 150px;
+        }
+        .bir, .ikki{
+            line-height: 35px;
+        }
+        button{
+            color: white;
+            font-size: 20px;
+            margin-top: 40px;
+            width: 100%;
+            text-align: center;
+            height: 80px;
+            background: rgb(0, 145, 255);
+            border: none;
+        }
+        .bir-ikki{
+            padding: 20px;
+        }
+        @media screen and (max-width: 450px) {
+            h1{
+                font-size: 40px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <h1>Number Random</h1>
+    <div class="random">
+        <p id="pp">0</p>
+        <div class="bir-ikki">
+            <div class="bir">
+                <label for="">Minimum:</label><br>
+                <input type="number" name="" id="inp">
+            </div><br>
+            <div class="ikki">
+                <label for="">Max:</label><br>
+                <input type="number" name="" id="inp2">
+            </div>
+        </div>
+    </div>
+    <button id="btn">Yaratish</button>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
